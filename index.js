@@ -220,6 +220,8 @@ console.log("Esercizio 10:", isTodayMyBirthday("2024-02-20"));
   Scrivi una funzione chiamata "deleteProp" che riceve un oggetto e una stringa come parametri; deve ritornare l'oggetto fornito dopo aver eliminato
   in esso la proprietà chiamata come la stringa passata come secondo parametro.
 */
+
+/* Questo array viene usato per gli esercizi. Non modificarlo. */
     const deleteProp = function(object, Nameobjprop) {
       if (object.hasOwnProperty(Nameobjprop)) {
         delete object[Nameobjprop];
@@ -557,5 +559,5 @@ console.log("Esercizio 25:");
   Crea una funzione chiamata "isItPrime" che riceve un numero come parametro e ritorna true se il numero fornito è un numero primo.
 */
 
-/* Questo array viene usato per gli esercizi. Non modificarlo. */
+
 
